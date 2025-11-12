@@ -1,12 +1,40 @@
-/* header */
-
-.header {
+html {
+  line-height: 1.75;
+  font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+  /* color: #000000; */
+  scroll-behavior: smooth;
+}
+button {
+  font-size: 1.25rem;
+}
+.nav-wrapper {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+  overflow: hidden;
+  top: 0;
   width: 100%;
-  height: auto;
-  background-color: gray;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 40px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-around;
+img {
+  padding-left: 80px;
+  max-width: 220px;
+}
+.nav {
+  gap: 1em;
+  padding-right: 90px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline rgb(255, 215, 0) 5px;
 }
