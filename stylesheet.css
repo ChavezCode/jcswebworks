@@ -35,7 +35,9 @@ button {
   font-weight: bold;
   padding: 40px;
 }
-
+.services {
+  margin: 0.5rem;
+}
 .service-img {
   max-width: auto;
   height: 100px;
@@ -85,11 +87,13 @@ title {
   display: flex;
   flex-direction: column;
   text-align: center;
-
   padding: 2rem;
   width: 30%;
 }
 /* pricing */
+.pricing {
+  margin: 0.5rem;
+}
 .pricing-title {
   font-weight: 600;
   font-size: 1.75rem;
@@ -97,8 +101,36 @@ title {
 li {
   display: flex;
 }
+.pricing-wrapper {
+  text-align: center;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .pricing-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
   margin: 0.5rem;
+  padding: 2rem;
+  text-align: left;
+  background-color: rgb(220, 219, 219);
+  border-radius: 1.5rem;
+}
+.monthly {
+  background-color: black;
+  color: white;
+}
+
+.monthly button {
+  background-color: white;
+  color: black;
+}
+.monthly .pricing-img {
+  filter: contrast(0%);
 }
 .pricing-img {
   width: 1.25rem;
