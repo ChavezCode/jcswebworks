@@ -37,7 +37,6 @@ button {
 }
 
 img {
-  padding-left: 80px;
   max-width: auto;
   height: 100px;
 }
@@ -50,7 +49,7 @@ img {
 .nav {
   gap: 1em;
   padding-right: 90px;
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
 }
@@ -62,4 +61,34 @@ a:hover {
   text-decoration: underline rgb(0, 0, 0) 5px;
   text-underline-offset: 10px;
   cursor: pointer;
+}
+
+/* services */
+.title {
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 2rem;
+  width: 30%;
+}
+
+.not-included {
+  color: rgb(128, 128, 128);
+}
+.price {
+  font-weight: bolder;
+  font-size: 3.065rem;
+  line-height: 0rem;
 }
