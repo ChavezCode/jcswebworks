@@ -36,7 +36,7 @@ button {
   padding: 40px;
 }
 
-img {
+.service-img {
   max-width: auto;
   height: 100px;
 }
@@ -63,10 +63,16 @@ a:hover {
   cursor: pointer;
 }
 
+.section-title,
+title {
+  font-weight: 600;
+  font-size: 2.35rem;
+}
+
 /* services */
 .title {
   text-align: center;
-  line-height: 0.5rem;
+  line-height: 0.75rem;
 }
 
 .service-wrapper {
@@ -83,12 +89,45 @@ a:hover {
   padding: 2rem;
   width: 30%;
 }
-
+/* pricing */
+.pricing-title {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+li {
+  display: flex;
+}
+.pricing-container {
+  margin: 0.5rem;
+}
+.pricing-img {
+  width: 1.25rem;
+  height: auto;
+  padding-right: 0.2rem;
+}
 .not-included {
   color: rgb(128, 128, 128);
 }
 .price {
+  display: flex;
   font-weight: bolder;
-  font-size: 3.065rem;
-  line-height: 0rem;
+  align-items: baseline;
+  font-size: 2.75rem;
+}
+.hosting-add {
+  font-weight: normal;
+  color: rgb(128, 128, 128);
+  font-size: 0.75rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(128, 128, 128);
 }
